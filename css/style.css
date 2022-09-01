@@ -3,7 +3,8 @@
 }
 
 header,
-.trendy {
+.trendy,
+footer {
     background: linear-gradient(#ECF9FF, white);
 }
 
@@ -105,4 +106,8 @@ html {
 .job:hover {
     background: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+footer a:hover {
+    color: rgba(var(--bs-info-rgb), var(--bs-text-opacity)) !important;
 }
