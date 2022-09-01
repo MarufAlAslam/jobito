@@ -79,9 +79,15 @@ ul.mx-auto .nav-item {
     font-size: 14px;
 }
 
-.btn-danger {
+.btn-danger,
+.btn-outline-danger:hover {
     background-color: #FF7164 !important;
     border-color: #FF7164 !important;
+}
+
+.btn-outline-danger {
+    border-color: #FF7164 !important;
+    color: #FF7164 !important;
 }
 
 .col-4.down {
@@ -124,4 +130,62 @@ footer a:hover {
     align-self: center;
     position: relative;
     top: 1px;
+}
+
+
+
+/* banner */
+.banner {
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.py-200 {
+    padding: 200px 0;
+}
+
+.profile.py-5 {
+    position: relative;
+    top: -250px;
+    margin-bottom: -280px;
+}
+
+.btn.prevBtn {
+    position: absolute;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 0 10px 10px 0;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    border: unset;
+}
+
+.btn.nextBtn {
+    position: absolute;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 10px 0 0 10px;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    border: unset;
+}
+
+.btn.nextBtn.slick-arrow:hover,
+.btn.prevBtn.slick-arrow:hover {
+    background: black;
+}
+
+.progress {
+    height: 5px;
+}
+
+.progress-bar {
+    background: linear-gradient(90deg, #F76B5E, #FD9E57, #A9D2D1);
+    border-radius: 10px;
 }

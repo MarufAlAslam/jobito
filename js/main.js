@@ -33,3 +33,16 @@ $('.category-slider').slick({
         // instead of a settings object
     ]
 });
+
+
+
+$('.portfolio-slider').slick({
+    dots: false,
+    infinite: true,
+    speed: 600,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    prevArrow: '<button class="btn prevBtn"><i class="fa fa-angle-left"></i></button>',
+    nextArrow: '<button class="btn nextBtn"><i class="fa fa-angle-right"></i></button>',
+});
