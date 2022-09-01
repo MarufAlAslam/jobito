@@ -97,3 +97,12 @@ body,
 html {
     overflow-x: hidden !important;
 }
+
+.fs-10 {
+    font-size: 13px;
+}
+
+.job:hover {
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
