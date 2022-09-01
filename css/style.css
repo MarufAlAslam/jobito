@@ -111,3 +111,17 @@ html {
 footer a:hover {
     color: rgba(var(--bs-info-rgb), var(--bs-text-opacity)) !important;
 }
+
+.page-link.border-0.text-muted.active {
+    background: #FF7164 !important;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    color: white !important;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    align-self: center;
+    position: relative;
+    top: 1px;
+}
