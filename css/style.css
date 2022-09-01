@@ -58,3 +58,21 @@ ul.mx-auto .nav-item {
     top: 50%;
     z-index: 100;
 }
+
+.nav-link.text-muted.active {
+    color: black !important;
+}
+
+.nav-tabs .nav-link {
+    border-bottom: 2px solid transparent !important;
+}
+
+.nav-tabs .nav-link.active {
+    background: transparent !important;
+    border: unset;
+    border-bottom: 2px solid #3FB47B !important;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
