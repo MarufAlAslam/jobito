@@ -2,7 +2,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-header {
+header,
+.trendy {
     background: linear-gradient(#ECF9FF, white);
 }
 
@@ -90,4 +91,9 @@ ul.mx-auto .nav-item {
 .col-4.up {
     position: relative;
     bottom: 20px;
+}
+
+body,
+html {
+    overflow-x: hidden !important;
 }
