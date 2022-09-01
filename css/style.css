@@ -76,3 +76,18 @@ ul.mx-auto .nav-item {
 .fs-14 {
     font-size: 14px;
 }
+
+.btn-danger {
+    background-color: #FF7164 !important;
+    border-color: #FF7164 !important;
+}
+
+.col-4.down {
+    position: relative;
+    top: 20px;
+}
+
+.col-4.up {
+    position: relative;
+    bottom: 20px;
+}
