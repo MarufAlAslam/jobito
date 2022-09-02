@@ -83,6 +83,7 @@ ul.mx-auto .nav-item {
 .btn-outline-danger:hover {
     background-color: #FF7164 !important;
     border-color: #FF7164 !important;
+    color: white !important;
 }
 
 .btn-outline-danger {
@@ -102,6 +103,7 @@ ul.mx-auto .nav-item {
 
 body,
 html {
+    background-color: #F7F7F7;
     overflow-x: hidden !important;
 }
 
@@ -206,4 +208,99 @@ footer a:hover {
 
 .contact {
     width: 350px;
+}
+
+.cover {
+    background-image: url("../img/banner.jpg");
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.dp-img.img-fluid {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 5px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.menus li {
+    border-left: 3px solid transparent;
+}
+
+.menus li:hover {
+    background: #F76B5E55;
+    color: white;
+    border-left: 3px solid #F76B5E;
+}
+
+.menus i {
+    margin-right: 5px;
+}
+
+.sub-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0;
+    width: 80%;
+    transition: 0.5s;
+    transform: translateX(140%);
+}
+
+.p-2.border-top.border-bottom.hasChild:hover .sub-menu {
+    transform: translateX(0);
+}
+
+.form-control,
+.form-select {
+    outline: unset !important;
+    box-shadow: unset !important;
+    resize: unset;
+}
+
+iframe {
+    width: 100%;
+}
+
+.project {
+    margin-top: 20px;
+}
+
+.project form {
+    display: none;
+}
+
+.inp {
+    background-color: rgba(128, 128, 128, 0.036);
+    /* height: 30px; */
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.inp-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background: #3FB47B45;
+    z-index: 100;
+}
+
+
+@media screen and (max-width: 767px) {
+
+
+    footer .d-flex.list-unstyled.m-0.p-0.justify-content-end {
+        justify-content: flex-start !important;
+    }
 }

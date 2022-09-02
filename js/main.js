@@ -46,3 +46,8 @@ $('.portfolio-slider').slick({
     prevArrow: '<button class="btn prevBtn"><i class="fa fa-angle-left"></i></button>',
     nextArrow: '<button class="btn nextBtn"><i class="fa fa-angle-right"></i></button>',
 });
+
+$('.editBtn').click(function () {
+    $('.project form').hide();
+    $(this).parent().parent().parent().children('form').show();
+});
