@@ -51,3 +51,18 @@ $('.editBtn').click(function () {
     $('.project form').hide();
     $(this).parent().parent().parent().children('form').show();
 });
+
+
+$('.filterBtn').click(function () {
+    $('.col-md-4.p-4.filters').toggleClass('active');
+})
+
+
+
+if ($(window).width() <= 767) {
+    console.log("got it")
+    $('.hasChild a').click(function (e) {
+        e.preventDefault()
+        $('.sub-menu').toggle()
+    })
+}
